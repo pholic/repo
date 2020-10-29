@@ -14,6 +14,22 @@ MD5sum: 11d621e06e87b3c34de55b5a635e1507
 SHA1: 1f663a5e20d62ef884c8dc0442c033efe8726340
 SHA256: d509407ab8252e829a3ec3f86e359806e3ef5c8b159c99b107931982077706e3
 
+Package: com.pholic.ipadcam
+Version: 0.5.0
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.ipadcam_0.5.0_iphoneos-arm.deb
+Size: 3434
+Installed-Size: 136
+Description: *BETA* Enables the vertical iPad based layout. Has hidden swipe controls for filters/modes/zoom control as well. IOS 13 and up.
+Name: iPad Cam
+Author: pholic
+MD5sum: c78dfc6d4dfff92171b3daf4bb3d1e15
+SHA1: f9fed6e7448bd78c61854617978e81598c81b9c7
+SHA256: a285f4fa262746bd26815e65c543d6a06ff2b422644da6b9c69e5bfcdc3fd3ae
+
 Package: com.pholic.newzoom
 Version: 1.0.0
 Section: Tweaks
