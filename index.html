@@ -1,12 +1,107 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Pholic's IOS tweaks repo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <title>Pholic</title>
+  <link rel="manifest" href="/site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="depictions/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="depictions/js/data-loader-engine.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123752025-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-123752025-1');
+  </script>
+  <style>
+  @media screen and (max-width:650px) {
+	#packageHeader {
+	  text-align: center;
+	}
+  }
+  </style>
 </head>
-<body>
-  <h1> Pholic's Cydia Repository </h1>
-  <a class="cydiaLink" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://pholic.github.io/repo/"> Click here to add pholic's repo to Cydia!
+<body style="display: grid; align-content: center;">
+	
+<div class="container" style="padding-right: 0px; padding-left: 0px; margin-top: 20px; text-align: center; display: inline-grid;">
+	<span><img style="width: 160px;" src=profilelarge.png /></span>
+	<span class="name" style="font-size: 50px; font-weight: bold;">Pholic's</span>
+	<span class="name" style="font-size: 60px; font-weight: bold;">Repo</span>
+	<ul style="text-align: center;" class="list-group" id="repoFooterLinks"></ul>
+</div>
+
+<div class="container" style="width: auto; display: inline-grid;">
+	<div style="width: auto;" class="reposhortcut">
+		<p style="width: auto; margin-right: 30px;" class="subtitle"><a class="btn btn-sm btn-default accent" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://pholic.github.io/repo/"><strong>+Cydia</strong></a></p>
+		<p style="width: auto; margin-right: 30px;" class="subtitle"><a class="btn btn-sm btn-default accent" href="zbra://sources/add/https://cydia.saurik.com/api/share#?source=https://pholic.github.io/repo/"><strong>+Zebra</strong></a></p>
+		<p style="width: auto; margin-right: 30px;" class="subtitle"><a class="btn btn-sm btn-default accent" href="sileo://source/https://cydia.saurik.com/api/share#?source=https://pholic.github.io/repo/"><strong>+Sileo</strong></a></p>
+		<p style="width: auto;" class="subtitle"><a class="btn btn-sm btn-default accent" href="installer://add/https://cydia.saurik.com/api/share#?source=https://pholic.github.io/repo/"><strong>+Installer</strong></a></p>
+	</div>
+</div>
+
+<div class="container">
+	<h2 id="wells" class="page-header" style="font-size: 24px; font-weight: 600;">My Projects:</h2>
+<div class="packages" style="display: grid; margin: 0 -5px;">
+
+</div>
+	<h2 id="wells" class="page-header"></h2>
+</div>
+
+<div class="container" style="color: #d6d6d6; text-align: center; margin-top: 20px; margin-bottom: 10px;">
+	<span style="font-size: 15px; font-weight: 300;">2020</span>
+</div>
+
+	<script type="text/javascript">
+	   function setAnchorTargets() {
+		 // if on Cydia, set link targets to _blank
+		 if (navigator.userAgent.search(/Cydia/) != -1) {
+		   $("a").each(function() {
+			 $(this).attr("target","_blank");
+		   });
+		 }
+	   }
+
+		var repoContents =  {
+			"#repoFooterLinks" :
+				{"type":"custom"
+					,"source":"repo>footerlinks>link"
+					,"render":function(element,source) {
+						$.each(source, function(index,data) {
+							var a = $("<a class='link-item list-group-item'>");
+							a.attr("href",$(data).find('url').text());
+							if ($(data).find('iconclass')) {
+								var i =  $("<span>")
+								i.attr("class",$(data).find('iconclass').text());
+								console.log(i);
+								$(a).append(i);
+							}
+							$(a).append($(data).find('name').text());
+							$(element).append(a);
+						}); //each
+					} //render
+				}
+		}
+		$( document ).ready(function() {
+			$.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
+				success : function(xml){
+						  data_loader_engine(repoContents,xml);
+				  setAnchorTargets();
+					  },
+				error: function() {
+				  $("#contactInfo").hide();
+				  setAnchorTargets();
+				}
+			}); //ajax
+
+
+		}); // ready
+
+	</script>
 </body>
 </html>
