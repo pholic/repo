@@ -1,1 +1,1 @@
-This is a CydiaIcon repo.
+This is a Cydia repo.
