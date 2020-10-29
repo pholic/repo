@@ -13,7 +13,6 @@ SHA256: d509407ab8252e829a3ec3f86e359806e3ef5c8b159c99b107931982077706e3
 Description: This enables a zoomdial on front and rear cameras for IOS 12 - 14.
 Name: Front Zoom Dial
 Author: Brandon Robinson
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.frontzoomdial
 
 Package: com.pholic.newzoom
 Version: 1.0.0
@@ -30,7 +29,6 @@ SHA256: 2f9ba9e2c1f4d8ead258d6b7760481165d480370780061bdc5380227f661b20a
 Description: Enables the new zoom dial style for IOS 13 - 14.
 Name: New Zoom
 Author: pholic
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.newzoom
 
 Package: com.pholic.photozoom
 Version: 1.0
@@ -47,5 +45,4 @@ SHA256: 11fd6061f94fb172103dc071fafaabb0516daf2eda5d6bd7d1b611c1fec99e4d
 Description: This allows you to zoom in as much as you would like in your photos app. It works on IOS 12 - 14.
 Name: Max Photo Zoom
 Author: Brandon Robinson
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.photozoom
 
