@@ -7,13 +7,12 @@ Architecture: iphoneos-arm
 Filename: .//debs/com.pholic.frontzoomdial_1.0.0_iphoneos-arm.deb
 Size: 2850
 Installed-Size: 136
-MD5sum: 11d621e06e87b3c34de55b5a635e1507
-SHA1: 1f663a5e20d62ef884c8dc0442c033efe8726340
-SHA256: d509407ab8252e829a3ec3f86e359806e3ef5c8b159c99b107931982077706e3
 Description: This enables a zoomdial on front and rear cameras for IOS 12 - 14.
 Name: Front Zoom Dial
 Author: Brandon Robinson
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.frontzoomdial
+MD5sum: 11d621e06e87b3c34de55b5a635e1507
+SHA1: 1f663a5e20d62ef884c8dc0442c033efe8726340
+SHA256: d509407ab8252e829a3ec3f86e359806e3ef5c8b159c99b107931982077706e3
 
 Package: com.pholic.newzoom
 Version: 1.0.0
@@ -24,13 +23,12 @@ Architecture: iphoneos-arm
 Filename: .//debs/com.pholic.newzoom_1.0.0_iphoneos-arm.deb
 Size: 2700
 Installed-Size: 136
-MD5sum: 319052bc38603bc3af1a99acf6d7682a
-SHA1: dcf1bb7f9eb0936f0f7d10c18dd0f06d332e987e
-SHA256: 2f9ba9e2c1f4d8ead258d6b7760481165d480370780061bdc5380227f661b20a
 Description: Enables the new zoom dial style for IOS 13 - 14.
 Name: New Zoom
 Author: pholic
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.newzoom
+MD5sum: 319052bc38603bc3af1a99acf6d7682a
+SHA1: dcf1bb7f9eb0936f0f7d10c18dd0f06d332e987e
+SHA256: 2f9ba9e2c1f4d8ead258d6b7760481165d480370780061bdc5380227f661b20a
 
 Package: com.pholic.photozoom
 Version: 1.0
@@ -41,11 +39,10 @@ Architecture: iphoneos-arm
 Filename: .//debs/com.pholic.photozoom_1.0_iphoneos-arm.deb
 Size: 2800
 Installed-Size: 136
-MD5sum: d714ad7dc0025eb8e7eae440d1d06f9f
-SHA1: 403720b45190f8d693f6a9efb98d442ba7e68514
-SHA256: 11fd6061f94fb172103dc071fafaabb0516daf2eda5d6bd7d1b611c1fec99e4d
 Description: This allows you to zoom in as much as you would like in your photos app. It works on IOS 12 - 14.
 Name: Max Photo Zoom
 Author: Brandon Robinson
-Depiction: https://pholic.github.io/repo/depictions/?p=com.pholic.photozoom
+MD5sum: d714ad7dc0025eb8e7eae440d1d06f9f
+SHA1: 403720b45190f8d693f6a9efb98d442ba7e68514
+SHA256: 11fd6061f94fb172103dc071fafaabb0516daf2eda5d6bd7d1b611c1fec99e4d
 

@@ -40,19 +40,19 @@ my @fieldpri= ('Package',
 	       'Filename',
 	       'Size',
 	       'Installed-Size',
-	       'MD5sum',
-	       'SHA1',
-	       'SHA256',
 	       'Description',
 	       'Origin',
 	       'Bugs',
-           'Name',
-           'Author',
-           'Homepage',
-           'Website',
-           'Depiction',
-		   'SileoDepiction',
-           'Icon'
+               'Name',
+               'Author',
+               'Homepage',
+               'Website',
+	       'MD5sum',
+	       'SHA1',
+	       'SHA256',
+               'Depiction',
+	       'SileoDepiction',
+               'Icon'
 	      );
 
 # This maps the fields into the proper case
@@ -175,8 +175,6 @@ FILE:
 	    if defined($tv{'Filename'});
 	
 	$tv{'Filename'}= "$pathprefix$fn";
-
-	$tv{'Depiction'} = "https://pholic.github.io/repo/depictions/?p=$p";
 
 	
 	my @checksums = (
