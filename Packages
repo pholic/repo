@@ -46,6 +46,22 @@ MD5sum: b8e9028ed50e0c2d9189e8deb605c879
 SHA1: d520b2538409856828b9ccbca0c956a5cd951552
 SHA256: 79b7e0c6ab7060dada091e5c719384381ee733041a2a2a4a786b43cfd476350d
 
+Package: com.pholic.newcamstyle13
+Version: 1.0.0
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.newcamstyle13_1.0.0_iphoneos-arm.deb
+Size: 2856
+Installed-Size: 136
+Description: Enables the newer camera interface on the iPhone Xr on 13.5. Could work for other devices on IOS 13.
+Name: newcamstyle13
+Author: pholic
+MD5sum: 7544e59c9ebb9151c562a2007188c0d1
+SHA1: 343992d9481d1d1c01e794e3eb6b99cf73ae7054
+SHA256: 34f18b3720217c964d0aa93f36f272cc1ff6b45d33c1e7ea72553d3a332f8ad1
+
 Package: com.pholic.newzoom
 Version: 1.0.0
 Section: Tweaks
