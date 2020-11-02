@@ -37,14 +37,14 @@ Maintainer: pholic <pholic@gmail.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: .//debs/com.pholic.modernui_1.0.0_iphoneos-arm.deb
-Size: 5282
+Size: 5326
 Installed-Size: 272
-Description: Modern gestures, no large titles, no dock background, percentage inside the battery, iPad status bar, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options. Take it or leave it.
+Description: *IOS 13 Devices with home buttons* Modern gestures, no large titles, no dock background, percentage inside the battery, iPad status bar, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options. Take it or leave it.
 Name: ModernUI
 Author: pholic
-MD5sum: b8e9028ed50e0c2d9189e8deb605c879
-SHA1: d520b2538409856828b9ccbca0c956a5cd951552
-SHA256: 79b7e0c6ab7060dada091e5c719384381ee733041a2a2a4a786b43cfd476350d
+MD5sum: 957b284385f21738c0e89c3e8e8b201e
+SHA1: 97b8c9d43dd8b822598dffce10d7372fd505ebde
+SHA256: 18e81aeca405ab35869629b2d4dfbd36b857b94b27602a903926d12c65597694
 
 Package: com.pholic.newcamstyle13
 Version: 1.0.0
