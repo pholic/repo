@@ -30,6 +30,22 @@ MD5sum: c78dfc6d4dfff92171b3daf4bb3d1e15
 SHA1: f9fed6e7448bd78c61854617978e81598c81b9c7
 SHA256: a285f4fa262746bd26815e65c543d6a06ff2b422644da6b9c69e5bfcdc3fd3ae
 
+Package: com.pholic.modernui
+Version: 1.0.0
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.modernui_1.0.0_iphoneos-arm.deb
+Size: 5282
+Installed-Size: 272
+Description: Modern gestures, no large titles, no dock background, percentage inside the battery, iPad status bar, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options. Take it or leave it.
+Name: ModernUI
+Author: pholic
+MD5sum: b8e9028ed50e0c2d9189e8deb605c879
+SHA1: d520b2538409856828b9ccbca0c956a5cd951552
+SHA256: 79b7e0c6ab7060dada091e5c719384381ee733041a2a2a4a786b43cfd476350d
+
 Package: com.pholic.newzoom
 Version: 1.0.0
 Section: Tweaks
