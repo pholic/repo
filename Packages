@@ -1,3 +1,19 @@
+Package: com.pholic.disablethrottling
+Version: 1.0
+Section: Tweaks
+Maintainer: pholic@gmail.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.disablethrottling_1.0_iphoneos-arm.deb
+Size: 3240
+Installed-Size: 136
+Description: Disables data rate throttling and signal reduction. Especially helps upload rates. Make sure to LDrestart to enable.
+Name: Disable Throttling
+Author: Brandon Robinson
+MD5sum: d7c4eead55cebe858d99ff112b1fd49e
+SHA1: f2c69b5e0e721fdec9d2245f500cd6000d80449c
+SHA256: 8a38d97e57ec239dc0207385689ee3d11aacb356718caab87693451253c3431a
+
 Package: com.pholic.frontzoomdial
 Version: 1.0.0
 Section: Tweaks
