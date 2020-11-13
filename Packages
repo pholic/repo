@@ -47,12 +47,29 @@ SHA1: f9fed6e7448bd78c61854617978e81598c81b9c7
 SHA256: a285f4fa262746bd26815e65c543d6a06ff2b422644da6b9c69e5bfcdc3fd3ae
 
 Package: com.pholic.modernui
+Version: 1.1.1
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernuiplus, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.modernui_1.1.1_iphoneos-arm.deb
+Size: 4282
+Installed-Size: 240
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Name: ModernUI
+Author: pholic <pholic@gmail.com>
+MD5sum: 3b63dffe2e8cf4c5a7dd205cdb4e5abd
+SHA1: afdfc6918a23ae4f1af27597dc16f9cba587b45b
+SHA256: 73a9c6e0fd0895ccbd63fe944d77f4752fefbb3aa8a7b7101e5c905b479493ea
+
+Package: com.pholic.modernui
 Version: 1.1.0
 Section: Tweaks
 Maintainer: pholic <pholic@gmail.com>
 Depends: mobilesubstrate, firmware (>= 13)
 Architecture: iphoneos-arm
-Filename: .//debs/com.pholic.modernui_1.1.0_iphoneos-arm.deb
+Filename: .//archivedebs/com.pholic.modernui_1.1.0_iphoneos-arm.deb
 Size: 4212
 Installed-Size: 240
 Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
@@ -63,12 +80,29 @@ SHA1: 7dc5200048a9c669468a2df60a07c8a1ff924e21
 SHA256: 4ecb110178c3d7605ff5d967c6502e29f7e759db5848321d657a824d23a8abb4
 
 Package: com.pholic.modernuiplus
+Version: 1.0.1
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm.deb
+Size: 5282
+Installed-Size: 272
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Name: ModernUI Plus
+Author: pholic
+MD5sum: ea9df910f1ea41f3565ee313ee3a80bf
+SHA1: c21b296b7a8dec95485539b36b43b7f1f009915c
+SHA256: 247753a56b8e8066c8368961338c6f56d6bff21f1caa5a019529f652eeacb48c
+
+Package: com.pholic.modernuiplus
 Version: 1.0.0
 Section: Tweaks
 Maintainer: pholic <pholic@gmail.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: .//debs/com.pholic.modernuiplus_1.0.0_iphoneos-arm.deb
+Filename: .//archivedebs/com.pholic.modernuiplus_1.0.0_iphoneos-arm.deb
 Size: 5332
 Installed-Size: 272
 Description: *IOS 13 Devices with home buttons* Modern gestures, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options. Take it or leave it.
