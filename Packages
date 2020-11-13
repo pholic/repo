@@ -47,20 +47,20 @@ SHA1: f9fed6e7448bd78c61854617978e81598c81b9c7
 SHA256: a285f4fa262746bd26815e65c543d6a06ff2b422644da6b9c69e5bfcdc3fd3ae
 
 Package: com.pholic.modernui
-Version: 1.0.1
+Version: 1.1.0
 Section: Tweaks
 Maintainer: pholic <pholic@gmail.com>
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 13)
 Architecture: iphoneos-arm
-Filename: .//debs/com.pholic.modernui_1.0.1_iphoneos-arm.deb
-Size: 4206
+Filename: .//debs/com.pholic.modernui_1.1.0_iphoneos-arm.deb
+Size: 4212
 Installed-Size: 240
-Description: *Only for IOS 13 Devices with home buttons* Modern gestures, no configuration options.
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
 Name: ModernUI
-Author: pholic
-MD5sum: 765a6191b09499b0794c3907bcb831e5
-SHA1: dc52a207ec1f5342ff17e8eb5fde61097df92248
-SHA256: 7b4c9c48240286a91ad143117ed8e43a180147c6d1210bb9ff163a0ec50ebb4d
+Author: pholic <pholic@gmail.com>
+MD5sum: f7e6f6e3e15d89bff17354c494715d36
+SHA1: 7dc5200048a9c669468a2df60a07c8a1ff924e21
+SHA256: 4ecb110178c3d7605ff5d967c6502e29f7e759db5848321d657a824d23a8abb4
 
 Package: com.pholic.modernuiplus
 Version: 1.0.0
