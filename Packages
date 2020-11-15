@@ -47,6 +47,24 @@ SHA1: f9fed6e7448bd78c61854617978e81598c81b9c7
 SHA256: a285f4fa262746bd26815e65c543d6a06ff2b422644da6b9c69e5bfcdc3fd3ae
 
 Package: com.pholic.ipadui
+Version: 0.6.0
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate, firmware (>= 13)
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.ipadui_0.6.0_iphoneos-arm.deb
+Size: 4738
+Installed-Size: 240
+Description: This is only for home-button iPhones on IOS 13 & 14. There are no options to configure. This gives you home gestures, hides the status bar in the CC, gives you the iPad grid switcher, status bar, floating dock with recent app, and enables side-by-side multi-tasking. THIS IS A BETA
+Name: iPadUI
+Author: pholic <pholic@gmail.com>
+MD5sum: 565a3932fd6dab38c76b0329ec1a587e
+SHA1: f5b91c443ee3ac768362755775a6626a338e0dc0
+SHA256: cd4b026063ad9886713c8522a982d6490a037012637b533da3716c7f158444cf
+
+Package: com.pholic.ipadui
 Version: 0.5.0
 Section: Tweaks
 Maintainer: pholic <pholic@gmail.com>
