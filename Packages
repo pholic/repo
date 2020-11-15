@@ -100,6 +100,24 @@ SHA1: afdfc6918a23ae4f1af27597dc16f9cba587b45b
 SHA256: 73a9c6e0fd0895ccbd63fe944d77f4752fefbb3aa8a7b7101e5c905b479493ea
 
 Package: com.pholic.modernui
+Version: 1.1.4
+Section: Tweaks
+Maintainer: pholic <pholic@gmail.com>
+Depends: mobilesubstrate, firmware (>= 13)
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.modernui_1.1.4_iphoneos-arm.deb
+Size: 3370
+Installed-Size: 136
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Name: ModernUI
+Author: pholic <pholic@gmail.com>
+MD5sum: b5ece473359f22b29aa4ecabce6e601e
+SHA1: 4c986b01ac8d599c1454ae3ce14b9f875fb9db02
+SHA256: 5944f11003589fa12f75d96559c503d2e6c23dad151ef8afadff491843c71c67
+
+Package: com.pholic.modernui
 Version: 1.1.0
 Section: Tweaks
 Maintainer: pholic <pholic@gmail.com>
