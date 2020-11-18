@@ -1,3 +1,21 @@
+Package: com.hius.halfipad
+Version: 3.7.7
+Section: Tweaks
+Maintainer: pholic
+Depends: mobilesubstrate, preferenceloader
+Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
+Architecture: iphoneos-arm
+Filename: .//debs/com.hius.halfipad_3.7.7_iphoneos-arm.deb
+Size: 65378
+Installed-Size: 584
+Description: unofficial BETA! Some features disabled! Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
+Name: HalFiPad
+Author: Hius
+MD5sum: d57f44b2629b81d452a3e30c8624cb67
+SHA1: 6ab7785dfef0662ad8cf5b35d0e0cfe8026bcfde
+SHA256: aa32939b3aba4948092afd1366b5e96c93c8072c1b4bb80bb87da653360f4768
+Icon: https://raw.githubusercontent.com/v-hius/HalFiPad/master/HalFiPadPrefs/Resources/icon%402x.png
+
 Package: com.pholic.disablethrottling
 Version: 1.0
 Section: Tweaks
