@@ -48,6 +48,24 @@ MD5sum: 11d621e06e87b3c34de55b5a635e1507
 SHA1: 1f663a5e20d62ef884c8dc0442c033efe8726340
 SHA256: d509407ab8252e829a3ec3f86e359806e3ef5c8b159c99b107931982077706e3
 
+Package: com.pholic.halfipad
+Version: 1.0.0
+Section: Tweaks
+Maintainer: pholic
+Depends: mobilesubstrate, preferenceloader
+Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
+Architecture: iphoneos-arm
+Filename: .//debs/com.pholic.halfipad_1.0.0_iphoneos-arm.deb
+Size: 57838
+Installed-Size: 548
+Description: Forked from HalfiPad. Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
+Name: HalfiPad Lite
+Author: Hius
+MD5sum: fb98d78498404e41b9048115435b4baf
+SHA1: b0f2c0bf791a15adc494a03dec17375c9041134e
+SHA256: b779dcdde4219865080ac2a2e923cacb8b0f8590ba98fc6ac21fed5e9bc6b2eb
+Icon: https://raw.githubusercontent.com/v-hius/HalFiPad/master/HalFiPadPrefs/Resources/icon%402x.png
+
 Package: com.pholic.ipadcam
 Version: 0.5.0
 Section: Tweaks
